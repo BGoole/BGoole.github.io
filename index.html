@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+    <div class="container">
+      <header><img src="pokemon_logo.png" alt="Logo"></header>
+      <div class="pokemonhomeWrapper">
+        <h1 id="loading">Loading...</h1>
+      </div>
+      <div class="page-control-wrap">
+        <button id="previous" onclick="loadPokemon(this)" value="prev">
+          Previous
+        </button>
+        <button onclick="loadPokemon(this)" value="next">Next</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
